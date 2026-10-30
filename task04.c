@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 #define SIZE 8
-
 int main(void) {
     double arr[SIZE];
     double value = 1.0;
-
-    for (int i = 0; i < SIZE; i++) {
+    for (int i = 0; i < SIZE; i++){
         arr[i] = value;
         value *= 2.0;
     }
